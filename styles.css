@@ -35,6 +35,10 @@ main {
         minmax(2rem, 1fr);
     row-gap: 3rem;
 }
+img {
+    width: 100%;
+    object-fit: cover;
+}
 .heading {
     display: grid;
     grid-column: 2 / 3;
@@ -45,3 +49,18 @@ main {
     grid-column: 2 / 3;
 }
 /*------*/
+
+.hero {
+    grid-column: 1 / -1;
+    position: relative;
+}
+.hero-title {
+    text-align: center;
+    color: orangered;
+    font-size: 8rem;
+}
+.hero-subtitle {
+    font-size: 2.4rem;
+    color: orangered;
+    text-align: center;
+}
